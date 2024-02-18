@@ -1,36 +1,36 @@
 {
-    "name": "ajc-babel",
-    "version": "0.0.1",
-    "description": "A JavaScript compiler module which uses Babel. Developed to support ReactJs projects.",
-    "main": "build/index.js",
-    "scripts": {
-      "build": "babel src --out-dir build",
-      "test": "npm run test-unit-coverage",
-      "test-unit": "jest --config=./tests/jest-config/unit.config.js",
-      "test-unit-coverage": "npm run test-unit -- --collectCoverage"
-    },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/ajc24/ajc-babel.git"
-    },
-    "author": "Anthony Cox",
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/ajc24/ajc-babel/issues?q=is%3Aopen+is%3Aissue+label%3Abug"
-    },
-    "homepage": "https://github.com/ajc24/ajc-babel#readme",
-    "dependencies": {
-      "@babel/cli": "^7.23.9",
-      "@babel/core": "^7.23.9",
-      "@babel/plugin-proposal-class-properties": "^7.18.6",
-      "@babel/plugin-syntax-dynamic-import": "^7.8.3",
-      "@babel/preset-env": "^7.23.9",
-      "@babel/preset-react": "^7.23.3",
-      "core-js": "^3.36.0"
-    },
-    "devDependencies": {
-      "react": "^18.2.0",
-      "react-dom": "^18.2.0"
-    }
+  "name": "ajc-babel",
+  "version": "0.0.1",
+  "description": "A JavaScript compiler module which uses Babel. Developed to support ReactJs projects.",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel src --out-dir build",
+    "test": "npm run test-unit-coverage",
+    "test-unit": "jest --config=./tests/jest-config/unit.config.js",
+    "test-unit-coverage": "npm run test-unit -- --collectCoverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajc24/ajc-babel.git"
+  },
+  "author": "Anthony Cox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajc24/ajc-babel/issues?q=is%3Aopen+is%3Aissue+label%3Abug"
+  },
+  "homepage": "https://github.com/ajc24/ajc-babel#readme",
+  "dependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-react": "^7.23.3",
+    "core-js": "^3.36.0"
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
+}
   
