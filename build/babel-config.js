@@ -17,7 +17,7 @@ exports["default"] = void 0;
 var configureBabel = function configureBabel(api) {
   api.cache(true);
   var presets = [['@babel/preset-env', {
-    corejs: 3.36,
+    corejs: 3.39,
     useBuiltIns: "usage"
   }], '@babel/preset-react'];
   var plugins = ['@babel/plugin-proposal-class-properties', '@babel/plugin-syntax-dynamic-import', '@babel/plugin-transform-arrow-functions'];
