@@ -8,7 +8,7 @@ module.exports = function (api) {
     [
       '@babel/preset-env',
       {
-        corejs: 3.36,
+        corejs: 3.39,
         useBuiltIns: "usage",
       }
     ],
