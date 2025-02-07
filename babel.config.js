@@ -8,8 +8,8 @@ module.exports = function (api) {
     [
       '@babel/preset-env',
       {
-        corejs: 3.39,
-        useBuiltIns: "usage",
+        corejs: '3.40',
+        useBuiltIns: 'usage',
       }
     ],
     '@babel/preset-react'
