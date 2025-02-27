@@ -13,7 +13,7 @@ describe('Babel Configuration Module', () => {
     [
       '@babel/preset-env',
       {
-        corejs: 3.39,
+        corejs: '3.40',
         useBuiltIns: "usage",
       }
     ],
